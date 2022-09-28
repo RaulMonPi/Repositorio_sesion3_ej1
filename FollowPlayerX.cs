@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class FollowPlayerX : MonoBehaviour
 
-public class FloowanotherPlayer
+=======
+
+
+
 {
     public GameObject Player;
     //private Vector3 offset = new Vector3(26.76f,2.12f, -23.33f);
