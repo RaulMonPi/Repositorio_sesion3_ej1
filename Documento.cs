@@ -37,7 +37,7 @@ public class PlayerControllerX : MonoBehaviour
     {
         if (collision.gameObject.CompareTag ("Respawn"))
         {
-            transform.position = originalPos;
+            //transform.position = originalPos;
         }
     }
     void OnTriggerEnter(Collider other)
