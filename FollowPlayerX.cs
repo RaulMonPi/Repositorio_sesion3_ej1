@@ -30,6 +30,7 @@ public class FollowPlayerX : MonoBehaviour
         initalOffset = transform.position - targetObject.position;
     }
 
+//Las actualizaciones se llaman una vez por frame
     void FixedUpdate()
     {
         cameraPosition = targetObject.position + initalOffset;
